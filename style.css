@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box;
+  }
+  .list{
+         list-style:none;
+         background:pink;
+         
+         margin-bottom:7px;
+         cursor:pointer;
+  }
+  li{
+       display:flex;
+       justify-content:space-between;
+      padding:11px;
+      background:pink;
+      margin-bottom:8px;
+      cursor:pointer;
+      align-items:center;
+      font-size:17px;
+      text-transform:capitalize;
+      font-family:verdana;
+      font-weight:900;
+     
+  }
+  
+  .container{
+         background-image:linear-gradient(to right, orange, beige);
+          width:950px;
+          margin:auto;
+          padding:25px;
+  }
+  
+  .content{
+         text-align:center;
+         
+  }
+  
+  .btn{
+      border:5px solid black;
+      background-color:orange;
+      font-weight:900;
+      margin-top:20px;
+  }
+  .trash{
+        color:blue;
+        font-weight:900;
+        margin-left:2px;
+        font-size:22px;
+  }
+  
+  
+  .btn{
+        cursor:pointer;
+  }
+  
+  .close{
+        background:blue;
+        padding:6px;
+        font-size:23px;
+        border-radius:11px;
+        color:white;
+        font-weight:900;
+        cursor:pointer;
+        margin-right:2px;
+  }
+  
+  body{
+    background-image:linear-gradient(to right, orange, beige);
+  }
+  .text-block{
+         display:flex;
+         gap:48px;
+  }
+  
+  
+  
+  #task-container{
+            width:900px;
+            
+            height:auto;
+            margin-top:34px;
+  }
+  
+  input[type=text]{
+           width:700px;
+           padding:11px;
+           border:none;
+           
+  }
+  input[type=button]{
+             width:200px;
+             padding:11px;
+  }
+  
+  .text{
+         font-size:10px;
+         background:red;
+         color:white;
+         padding:4px;
+         margin-left:15px;
+         
+         
+         
+  }
+  .check{
+         color:green;
+         font-size:33px;
+  }
+  
